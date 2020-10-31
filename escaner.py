@@ -26,7 +26,7 @@ def lectura():
 \t\t\tINICIO_________________________ \n\n
  """, Datos[ip][0])
     try:
-        while i <=9:
+        while i <=65535:
             i += 1
             print(Datos[ip][i],"\n")
     except IndexError:
